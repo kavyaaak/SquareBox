@@ -99,7 +99,7 @@ const styles = StyleSheet.create(
       paddingRight: 10 
     },
     button1:{
-      width: 60, 
+      width: 70, 
       marginBottom: 20
     },
     button2:{
