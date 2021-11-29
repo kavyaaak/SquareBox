@@ -36,7 +36,7 @@ export default class Square extends Component {
 
   renderItem = ({ item }) => {
     return (
-      <View style={{ flex: 1, marginTop: 10 }}>{item}</View>
+      <View style={{ flex: 0.1, marginTop: 10 }}>{item}</View>
     )
   }
 
@@ -77,8 +77,10 @@ export default class Square extends Component {
 const styles = StyleSheet.create(
   {
     MainContainer: {
-      flex: 1,
-      backgroundColor: '#141313'
+      //  flex: 1,
+      backgroundColor: '#141313',
+      width:'100%',
+      height:'100%'
     },
     headerView:{
       height: 80, 
