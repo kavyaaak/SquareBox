@@ -112,3 +112,19 @@ const styles = StyleSheet.create(
     }
 
   });
+
+
+
+//   import React, { Component } from 'react';
+// import { StyleSheet, View, Button, Text, FlatList } from 'react-native';
+
+
+// export default class Square extends Component {
+//     render(){
+//         return (
+//             <View>
+//                 <Text>Hello</Text>
+//             </View>
+//         )
+//     }
+// }
